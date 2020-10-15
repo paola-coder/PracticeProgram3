@@ -7,9 +7,7 @@ public class Door {
 		
 		PracticeProgramThree random = new PracticeProgramThree();
 		
-		 String randomSpin = random.getStates();
+		 random.getStates();
 		 
-		System.out.println(" The door is " + randomSpin);
-	}
 
 }
