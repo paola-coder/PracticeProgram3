@@ -10,37 +10,26 @@ public class PracticeProgramThree{
 	
 	public PracticeProgramThree () {
 	
-		
-		
-		
-//		String states = random.toString();
-	
-		String states = "open" + "closed" ;
-//		 String T = "open" ;
-//		 String F = "closed";
-			
-	
-	
-		
+		String state2 = "open" ;
 	}
 	
 	public PracticeProgramThree (String openClosed) {
 		
-		states= openClosed;
+		state2= openClosed;
 	}
 	public void changeStates (String newStates) {
-		states=newStates;
+		state2=newStates;
 	}
-	public String getStates() {
+	public void getStates() {
+	if (state2.equalsIgnoreCase("open") ) {
+	System.out.println("The door is closed");}
+	else { 
+	System.out.println("The door is open");}}
+
 	
-	return states ;
 	
 }
-	public void door () {
 	
-		
-	
-	}	
 	
 	
 }
